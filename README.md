@@ -1,1 +1,1 @@
-https://github.com/Nibelung299/first-project
+https://github.com/Nibelung299/ono-tebe-nado-fd
