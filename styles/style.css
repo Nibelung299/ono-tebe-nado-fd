@@ -169,6 +169,7 @@ h1 {
 }
 
 .lots__list-item {
+  position: relative;
   min-height: 596px;
   width: 334px;
 }
@@ -211,6 +212,7 @@ h1 {
   text-transform: uppercase;
   text-decoration: underline 1px #ffffff;
   text-underline-offset: 2px;
+  z-index: 1;
 }
 
 .lots__list-text {
@@ -222,6 +224,7 @@ h1 {
   font-size: 20px;
   line-height: 120%;
   align-items: end;
+  z-index: 1;
 }
 
 .lots__more {
