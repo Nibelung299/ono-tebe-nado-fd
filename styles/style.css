@@ -48,10 +48,7 @@ h1 {
 .header__links-list-item {
   list-style-type: circle;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  font-weight: 400;
   line-height: 100%;
   padding-left: 4px;
 }
@@ -119,7 +116,7 @@ h1 {
 }
 
 .description__text {
-  margin-right: 109px;
+  margin-right: 106px;
   font-family: "Raleway";
   font-weight: 400;
   font-style: normal;
@@ -135,15 +132,11 @@ h1 {
 .description__button {
   padding: 0;
   font-family: "Raleway";
-  font-weight: 400;
-  font-style: normal;
   font-size: 22px;
   line-height: 28px;
-  color: #ffffff;
   text-transform: uppercase;
   z-index: 1;
   border-radius: 1px;
-  border-color: #ffffff;
   color: #ffffff;
   background: transparent;
   width: 256px;
@@ -254,7 +247,6 @@ h1 {
 
 .column-logo {
   grid-area: logo;
-  display: flex;
   justify-content: center;
   align-items: center;
   display: grid;
@@ -301,7 +293,7 @@ h1 {
   font-weight: 400;
   font-size: 20px;
   border-left-width: 24px;
-  max-width: 680px;
+  max-width: 690px;
 }
 
 .footer {
@@ -340,17 +332,8 @@ h1 {
 
 .footer__social-list {
   list-style: none;
-}
-
-.footer__social-list {
   display: flex;
   gap: 48px;
-}
-
-.footer__social-list-item {
-}
-
-.footer__social-icon {
 }
 
 .link-active {
