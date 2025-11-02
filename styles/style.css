@@ -10,7 +10,6 @@
   text-transform: uppercase;
   font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 100px;
   color: #ffffff;
   letter-spacing: 30px;
@@ -146,7 +145,6 @@
 .lots__title {
   font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 40px;
   text-transform: uppercase;
   padding-left: 65px;
@@ -197,7 +195,6 @@
 .lots__list-title {
   font-family: Raleway, Arial, sans-serif;
   color: #ffffff;
-  font-style: bold;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -268,12 +265,11 @@
   gap: 24px;
 }
 
-.description__title {
+.about__title {
   grid-area: title;
   align-self: center;
   font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 40px;
   text-transform: uppercase;
   padding-left: 25px;
@@ -288,6 +284,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 85px;
 }
 
 .footer__address {
@@ -308,10 +305,6 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-}
-
-.footer__menu-link {
-  border-bottom: 1px solid #000000;
 }
 
 .footer__socials {
